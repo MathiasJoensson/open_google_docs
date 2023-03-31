@@ -2,9 +2,10 @@
 
 import os
 import webbrowser
+import sys
 
 # Specify the folder ID of the folder containing the Google Docs
-FOLDER_ID = "ORs"
+FOLDER_ID = sys.argv[1]
 
 # Specify the path to the folder containing the Google Docs
 folder_path = "G:/My Drive/" + FOLDER_ID
